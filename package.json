@@ -1,0 +1,26 @@
+{
+  "name": "fleksaproject",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.13.6",
+    "@tanstack/react-query": "^5.0.0-alpha.71",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "debug": "^4.3.4",
+    "next": "13.4.7",
+    "postcss": "8.4.24",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-toastify": "^9.1.3",
+    "tailwindcss": "3.3.2"
+  }
+}
