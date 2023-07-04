@@ -49,6 +49,13 @@ const Order = () => {
                     >
                       Price: ₹{item?.price}
                     </Typography>
+                    <Typography
+                      variant="subtitle1"
+                      className="text-red-300"
+                      component="div"
+                    >
+                      DeliverIn: {item?.deliverIn} mins
+                    </Typography>
                   </CardContent>
                   <Box sx={{ display: "flex", alignItems: "center", pl: 1 }}>
                     <img
